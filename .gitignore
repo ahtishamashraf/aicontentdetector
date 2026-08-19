@@ -1,0 +1,16 @@
+.env
+node_modules/
+.next/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+coverage/
+playwright-report/
+test-results/
+*.pyc
+*.safetensors
+*.bin
+models/
+uploads/

@@ -1,0 +1,1 @@
+export default function Page(){return <main className="mx-auto min-h-[65vh] max-w-3xl px-5 py-16"><h1 className="text-4xl font-bold">Privacy</h1><p className="mt-6 text-lg leading-8 text-muted">Content is encrypted temporarily. Guest content expires within 24 hours; submitted text never belongs in logs.</p></main>}

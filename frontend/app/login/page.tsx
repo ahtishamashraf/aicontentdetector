@@ -1,0 +1,1 @@
+export default function Page(){return <main className="mx-auto min-h-[65vh] max-w-3xl px-5 py-16"><h1 className="text-4xl font-bold">Sign in</h1><p className="mt-6 text-lg leading-8 text-muted">Secure account sessions are provided by the same-origin API.</p></main>}

@@ -1,0 +1,11 @@
+name: Security
+on:
+  schedule: [{cron: '0 7 * * 1'}]
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cd frontend && npm audit --omit=dev
+      - run: pip install pip-audit && pip-audit -r <(python -m pip freeze)

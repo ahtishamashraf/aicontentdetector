@@ -1,0 +1,1 @@
+export default function Page(){return <main className="mx-auto min-h-[65vh] max-w-3xl px-5 py-16"><h1 className="text-4xl font-bold">Administration</h1><p className="mt-6 text-lg leading-8 text-muted">An active administrator role is required.</p></main>}

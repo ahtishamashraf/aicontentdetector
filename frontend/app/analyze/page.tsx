@@ -1,0 +1,1 @@
+import{Analyzer}from'@/components/analyzer';export default function Page(){return <main className="mx-auto max-w-4xl px-5 py-14"><h1 className="mb-8 text-4xl font-bold">Analysis workspace</h1><Analyzer/></main>}

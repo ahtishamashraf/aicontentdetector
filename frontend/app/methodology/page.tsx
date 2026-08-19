@@ -1,0 +1,1 @@
+export default function Page(){return <main className="mx-auto min-h-[65vh] max-w-3xl px-5 py-16"><h1 className="text-4xl font-bold">Methodology</h1><p className="mt-6 text-lg leading-8 text-muted">OriginLens uses overlapping token windows and a local classifier. Deterministic measurements explain context, never authorship.</p></main>}

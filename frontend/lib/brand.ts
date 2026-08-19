@@ -1,0 +1,1 @@
+export const brand={name:'OriginLens',tagline:'A privacy-first writing analysis platform that estimates whether text contains statistical patterns associated with machine-generated writing.',supportEmail:'support@example.com'} as const;
